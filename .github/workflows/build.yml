@@ -1,4 +1,4 @@
-name: Build Wysteria CS2
+﻿name: Build Wysteria CS2
 
 on:
   push:
@@ -7,12 +7,28 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-      - run: bash scripts/build.sh
+
+      - name: Restore
+        run: dotnet restore Wysteria.sln
+
+      - name: Build
+        run: dotnet build Wysteria.sln -c Release --no-restore
+
+      - name: Prepare deployment
+        shell: bash
+        run: |
+          rm -rf artifacts/deploy
+          mkdir -p artifacts/deploy
+
+          find src -path "*/bin/Release/*" -name "Wysteria.*.dll" -exec cp {} artifacts/deploy/ \;
+
       - uses: actions/upload-artifact@v4
         with:
           name: wysteria-cs2-deploy
