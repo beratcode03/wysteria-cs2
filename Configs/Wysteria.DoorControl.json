@@ -1,0 +1,7 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "CooldownSeconds": 15,
+  "OpenDurationSeconds": 10
+}

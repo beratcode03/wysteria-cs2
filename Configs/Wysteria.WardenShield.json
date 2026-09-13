@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "ShieldHealth": 500,
+  "ShieldDurationSeconds": 30,
+  "CooldownSeconds": 60
+}

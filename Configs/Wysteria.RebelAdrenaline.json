@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "AdrenalineSpeedBonus": 0.15,
+  "AdrenalineDamageResist": 0.20,
+  "AdrenalineDuration": 5.0
+}

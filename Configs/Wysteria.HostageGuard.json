@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "HostageDuration": 15.0,
+  "CooldownSeconds": 60.0,
+  "InteractionRadius": 96.0
+}

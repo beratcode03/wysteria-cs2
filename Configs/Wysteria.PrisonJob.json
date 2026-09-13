@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "CreditsReward": 50,
+  "MaxJobsPerRound": 2,
+  "JobDuration": 5.0
+}

@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "MinBet": 10,
+  "MaxBet": 1000,
+  "HouseTaxPercentage": 0.05
+}

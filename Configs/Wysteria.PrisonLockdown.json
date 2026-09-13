@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "LockdownDurationSeconds": 10.0,
+  "DoorDamageThreshold": 300,
+  "LockdownCooldown": 30.0
+}

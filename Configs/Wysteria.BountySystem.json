@@ -1,0 +1,10 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "MinBountyCredits": 100,
+  "MaxBountyCredits": 5000,
+  "AutoBountyKillThreshold": 3,
+  "AutoBountyAmount": 200,
+  "HudIconDurationSeconds": 120.0
+}

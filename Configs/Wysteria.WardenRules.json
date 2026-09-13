@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "MaxRuleLength": 120,
+  "ClaimCommand": "wysteria_w",
+  "Rules": "Warden kararları round içi geçerlidir."
+}

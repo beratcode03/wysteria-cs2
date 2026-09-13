@@ -1,0 +1,11 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "RadioCooldown": 3.0,
+  "Macros": {
+    "armory": "Armory Under Attack!",
+    "cells": "Cells are compromised!",
+    "riot": "Riot in progress!"
+  }
+}

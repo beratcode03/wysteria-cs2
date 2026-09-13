@@ -1,0 +1,325 @@
+{
+  "target": "Counter-Strike 2 / CounterStrikeSharp / .NET 8",
+  "requiredRuntime": "Wysteria.Core.dll",
+  "pluginDlls": [
+    "Wysteria.AdminTools.dll",
+    "Wysteria.Advertiser.dll",
+    "Wysteria.BountySystem.dll",
+    "Wysteria.CellSearch.dll",
+    "Wysteria.CoinFlip.dll",
+    "Wysteria.Contraband.dll",
+    "Wysteria.ContrabandScanner.dll",
+    "Wysteria.Core.dll",
+    "Wysteria.Disguise.dll",
+    "Wysteria.DoorControl.dll",
+    "Wysteria.FakeRebel.dll",
+    "Wysteria.FreeDay.dll",
+    "Wysteria.GuardDuty.dll",
+    "Wysteria.GuardJail.dll",
+    "Wysteria.GuardOrders.dll",
+    "Wysteria.GuardQueue.dll",
+    "Wysteria.GuardRadio.dll",
+    "Wysteria.GuardStamina.dll",
+    "Wysteria.GuardTraining.dll",
+    "Wysteria.HostageGuard.dll",
+    "Wysteria.InmateRanks.dll",
+    "Wysteria.MetalDetector.dll",
+    "Wysteria.PrisonBetrayal.dll",
+    "Wysteria.PrisonCCTV.dll",
+    "Wysteria.PrisonEvidence.dll",
+    "Wysteria.PrisonGym.dll",
+    "Wysteria.PrisonJob.dll",
+    "Wysteria.PrisonLockdown.dll",
+    "Wysteria.PrisonMail.dll",
+    "Wysteria.PrisonSchedule.dll",
+    "Wysteria.RebelAdrenaline.dll",
+    "Wysteria.RiotAlarm.dll",
+    "Wysteria.RoundStats.dll",
+    "Wysteria.SecretPassage.dll",
+    "Wysteria.TeamBalance.dll",
+    "Wysteria.VoiceControl.dll",
+    "Wysteria.WardenAnvil.dll",
+    "Wysteria.WardenDraw.dll",
+    "Wysteria.WardenLazer.dll",
+    "Wysteria.WardenMarker.dll",
+    "Wysteria.WardenMicCheck.dll",
+    "Wysteria.WardenPanic.dll",
+    "Wysteria.WardenRules.dll",
+    "Wysteria.WardenShield.dll",
+    "Wysteria.WardenTimer.dll",
+    "Wysteria.WardenVote.dll"
+  ],
+  "configFiles": [
+    "Wysteria.AdminTools.json",
+    "Wysteria.Advertiser.json",
+    "Wysteria.BountySystem.json",
+    "Wysteria.CellSearch.json",
+    "Wysteria.CoinFlip.json",
+    "Wysteria.Contraband.json",
+    "Wysteria.ContrabandScanner.json",
+    "Wysteria.Disguise.json",
+    "Wysteria.DoorControl.json",
+    "Wysteria.FakeRebel.json",
+    "Wysteria.FreeDay.json",
+    "Wysteria.GuardJail.json",
+    "Wysteria.GuardOrders.json",
+    "Wysteria.GuardRadio.json",
+    "Wysteria.GuardStamina.json",
+    "Wysteria.GuardTraining.json",
+    "Wysteria.HostageGuard.json",
+    "Wysteria.InmateRanks.json",
+    "Wysteria.MetalDetector.json",
+    "Wysteria.PrisonBetrayal.json",
+    "Wysteria.PrisonGym.json",
+    "Wysteria.PrisonJob.json",
+    "Wysteria.PrisonLockdown.json",
+    "Wysteria.RebelAdrenaline.json",
+    "Wysteria.RiotAlarm.json",
+    "Wysteria.RoundStats.json",
+    "Wysteria.SecretPassage.json",
+    "Wysteria.TeamBalance.json",
+    "Wysteria.WardenAnvil.json",
+    "Wysteria.WardenDraw.json",
+    "Wysteria.WardenMarker.json",
+    "Wysteria.WardenPanic.json",
+    "Wysteria.WardenRules.json",
+    "Wysteria.WardenShield.json",
+    "Wysteria.WardenVote.json"
+  ],
+  "install": {
+    "plugins": "<server_root>/game/csgo/addons/counterstrikesharp/plugins/Wysteria/",
+    "configs": "<server_root>/game/csgo/addons/counterstrikesharp/configs/"
+  },
+  "pluginMetadata": {
+    "Wysteria.AdminTools.dll": {
+      "version": "1.0.7",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Admin status and module controls."
+    },
+    "Wysteria.Advertiser.dll": {
+      "version": "1.1.3",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Timed server-wide announcements."
+    },
+    "Wysteria.BountySystem.dll": {
+      "version": "1.3.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Player bounty and reward system."
+    },
+    "Wysteria.CellSearch.dll": {
+      "version": "1.0.9",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Guard-led cell search system."
+    },
+    "Wysteria.CoinFlip.dll": {
+      "version": "1.5.1",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Player coin flip challenge system."
+    },
+    "Wysteria.Contraband.dll": {
+      "version": "1.0.6",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Random contraband stash events."
+    },
+    "Wysteria.ContrabandScanner.dll": {
+      "version": "1.1.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Guard contraband detection tool."
+    },
+    "Wysteria.Core.dll": {
+      "version": "1.3.1",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Shared runtime for Wysteria modules."
+    },
+    "Wysteria.Disguise.dll": {
+      "version": "1.0.8",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Temporary prisoner disguise system."
+    },
+    "Wysteria.DoorControl.dll": {
+      "version": "1.3.0",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Warden door control commands."
+    },
+    "Wysteria.FakeRebel.dll": {
+      "version": "1.1.6",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Local fake rebellion sound system."
+    },
+    "Wysteria.FreeDay.dll": {
+      "version": "1.0.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Warden free-day assignment system."
+    },
+    "Wysteria.GuardDuty.dll": {
+      "version": "1.6.1",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Guard duty session tracking."
+    },
+    "Wysteria.GuardJail.dll": {
+      "version": "1.0.8",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Temporary guard jail punishment."
+    },
+    "Wysteria.GuardOrders.dll": {
+      "version": "1.3.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Low-spam guard order system."
+    },
+    "Wysteria.GuardQueue.dll": {
+      "version": "1.1.7",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Queue system for guard selection."
+    },
+    "Wysteria.GuardRadio.dll": {
+      "version": "1.0.9",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Private guard radio macros."
+    },
+    "Wysteria.GuardStamina.dll": {
+      "version": "1.5.3",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Limited guard stun ability."
+    },
+    "Wysteria.GuardTraining.dll": {
+      "version": "1.0.6",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Guard target training and rewards."
+    },
+    "Wysteria.HostageGuard.dll": {
+      "version": "1.1.8",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Short guard hostage mechanic."
+    },
+    "Wysteria.InmateRanks.dll": {
+      "version": "1.3.1",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Inmate rank and credit tracking."
+    },
+    "Wysteria.MetalDetector.dll": {
+      "version": "1.0.7",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Configurable prison metal detector."
+    },
+    "Wysteria.PrisonBetrayal.dll": {
+      "version": "1.1.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Inmate weapon report system."
+    },
+    "Wysteria.PrisonCCTV.dll": {
+      "version": "1.3.6",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Configurable prison camera points."
+    },
+    "Wysteria.PrisonEvidence.dll": {
+      "version": "1.1.9",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Round evidence event logging."
+    },
+    "Wysteria.PrisonGym.dll": {
+      "version": "1.5.0",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Limited inmate gym bonus."
+    },
+    "Wysteria.PrisonJob.dll": {
+      "version": "1.6.3",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Prison jobs and credit rewards."
+    },
+    "Wysteria.PrisonLockdown.dll": {
+      "version": "1.1.7",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Emergency prison lockdown."
+    },
+    "Wysteria.PrisonMail.dll": {
+      "version": "1.3.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Private player-to-player mail."
+    },
+    "Wysteria.PrisonSchedule.dll": {
+      "version": "1.5.1",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Jailbreak activity scheduling."
+    },
+    "Wysteria.RebelAdrenaline.dll": {
+      "version": "1.0.8",
+      "author": "wisteriae",
+      "description": "Wysteria Works - First-kill rebel adrenaline bonus."
+    },
+    "Wysteria.RiotAlarm.dll": {
+      "version": "1.1.6",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Local riot alert for the Warden."
+    },
+    "Wysteria.RoundStats.dll": {
+      "version": "1.3.0",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Private round statistics summary."
+    },
+    "Wysteria.SecretPassage.dll": {
+      "version": "1.5.3",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Hidden passage discovery system."
+    },
+    "Wysteria.TeamBalance.dll": {
+      "version": "1.0.9",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Warden team balance reporting."
+    },
+    "Wysteria.VoiceControl.dll": {
+      "version": "1.1.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Jailbreak voice management."
+    },
+    "Wysteria.WardenAnvil.dll": {
+      "version": "1.3.1",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Automatic Warden role transfer."
+    },
+    "Wysteria.WardenDraw.dll": {
+      "version": "1.0.7",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Warden direction marker tool."
+    },
+    "Wysteria.WardenLazer.dll": {
+      "version": "1.6.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Warden laser marker system."
+    },
+    "Wysteria.WardenMarker.dll": {
+      "version": "1.1.8",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Visible prisoner marking tool."
+    },
+    "Wysteria.WardenMicCheck.dll": {
+      "version": "1.5.6",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Warden microphone check system."
+    },
+    "Wysteria.WardenPanic.dll": {
+      "version": "1.0.6",
+      "author": "wisteriae",
+      "description": "Wysteria Works - One-use Warden emergency alarm."
+    },
+    "Wysteria.WardenRules.dll": {
+      "version": "1.3.5",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Warden rule display system."
+    },
+    "Wysteria.WardenShield.dll": {
+      "version": "1.1.7",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Temporary Warden energy shield."
+    },
+    "Wysteria.WardenTimer.dll": {
+      "version": "1.5.9",
+      "author": "wisteriae",
+      "description": "Wysteria Works - Timed Warden activity tool."
+    },
+    "Wysteria.WardenVote.dll": {
+      "version": "1.0.8",
+      "author": "wisteriae",
+      "description": "Wysteria Works - End-of-round Warden voting."
+    }
+  }
+}

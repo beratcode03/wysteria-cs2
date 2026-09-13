@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "StashSpawnChance": 0.35,
+  "MinCredits": 20,
+  "MaxCredits": 150
+}

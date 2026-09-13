@@ -1,0 +1,7 @@
+{
+  "Enabled": false,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "IntervalSeconds": 600.0,
+  "StoreUrl": "https://wysteria.example/store"
+}

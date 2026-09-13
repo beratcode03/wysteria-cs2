@@ -1,0 +1,7 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "JailDurationSeconds": 60,
+  "StripWeapons": true
+}

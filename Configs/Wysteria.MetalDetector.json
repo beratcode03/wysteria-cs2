@@ -1,0 +1,10 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "DetectorCooldown": 15.0,
+  "FlashDuration": 4.0,
+  "DetectorRadius": 256.0,
+  "DetectorCenter": "",
+  "AlarmSound": "cs2go_siren_alert"
+}

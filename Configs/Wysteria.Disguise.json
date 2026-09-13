@@ -1,0 +1,10 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "DisguiseCost": 3000,
+  "DisguiseDuration": 45.0,
+  "ProductId": "disguise",
+  "GuardModel": "characters/models/ctm_sas/ctm_sas.vmdl",
+  "PrisonerModel": "characters/models/tm_phoenix/tm_phoenix.vmdl"
+}

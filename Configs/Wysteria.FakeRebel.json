@@ -1,0 +1,13 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "FakeRebelCost": 100,
+  "AudioRadius": 500.0,
+  "ProductId": "fake-rebel",
+  "Cues": {
+    "gunshot": "Weapon_AK47.Single",
+    "footstep": "Player.Footsteps",
+    "vent": "Breakable.Metal"
+  }
+}

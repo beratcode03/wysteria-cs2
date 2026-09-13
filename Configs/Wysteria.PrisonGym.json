@@ -1,0 +1,11 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "GymBonusHP": 10,
+  "GymSpeedBonus": 0.05,
+  "GymDuration": 5.0,
+  "BonusType": "Health",
+  "GymZoneCenter": "0,0,0",
+  "GymZoneRadius": 128.0
+}

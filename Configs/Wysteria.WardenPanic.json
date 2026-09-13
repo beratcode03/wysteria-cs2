@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "AllowedMaps": "jb_,jail_",
+  "GlobalCooldown": 5.0,
+  "AlphaGuardHealth": 125,
+  "RadarDurationSeconds": 5.0,
+  "MinPrisonersRequired": 3
+}
