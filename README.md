@@ -138,4 +138,4 @@ Below is a list of all modules in the Wysteria CS2 ecosystem and what they do:
 3. Upload the configuration files from `Configs/` to `addons/counterstrikesharp/configs/`. Restart your server completely.
 
 ### 🔧 Development
-build it on your PC, you can use `dotnet build -c Release`.
+build it on your PC, you can use `dotnet build -c Release`. 
