@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>12.0</LangVersion>
+    <AssemblyName>Wysteria.PrisonJob</AssemblyName>
+    <RootNamespace>Wysteria.PrisonJob</RootNamespace>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <Description>Wysteria Works - Prison jobs and credit rewards.</Description>
+    <Authors>wisteriae</Authors>
+        <Company>wisteriae</Company>
+    <Version>1.6.3</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.350" PrivateAssets="all" />
+    <ProjectReference Include="../Wysteria.Core/Wysteria.Core.csproj" />
+  </ItemGroup>
+</Project>
